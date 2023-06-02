@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_my_plants_app_1685730903053-pr-trigger-input-set
+  identifier: Build_my_plants_app_1685730903053prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_my_plants_app_1685730903053
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
